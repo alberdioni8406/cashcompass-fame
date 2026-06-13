@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>BCH Ecosystem Hall of Fame — Celebrating Bitcoin Cash Supporters</title>
+  <meta name="description" content="The BCH Ecosystem Hall of Fame celebrates every person who donates to Bitcoin Cash adoption tools — CashCompass, CompassPay, and StableShift. Join the leaderboard." />
+  <meta name="keywords" content="Bitcoin Cash, BCH, donation, Hall of Fame, CashCompass, CompassPay, StableShift, BCH ecosystem, crypto supporters" />
+  <meta name="author" content="CashCompass Ecosystem" />
+  <link rel="canonical" href="https://cashcompass.space/hall-of-fame" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="BCH Ecosystem Hall of Fame" />
+  <meta property="og:description" content="Celebrating the supporters building Bitcoin Cash adoption tools." />
+  <meta property="og:url" content="https://cashcompass.space/hall-of-fame" />
+  <meta property="og:image" content="https://cashcompass.space/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BCH Ecosystem Hall of Fame" />
+  <meta name="twitter:description" content="Join the leaderboard of BCH ecosystem supporters." />
+  <meta name="twitter:creator" content="@alberdioni8406_" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>" />
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────────────── -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="BCH Hall of Fame home">
+        <div class="nav-logo-icon" aria-hidden="true">🏆</div>
+        <span>BCH Hall of Fame</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leaderboard">Leaderboard</a></li>
+        <li><a href="#badges">Badges</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#stats">Stats</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="hero-pulse" aria-hidden="true"></span>
+          Bitcoin Cash Ecosystem · Powered by Community
+        </div>
+        <h1 class="hero-title" id="hero-title">
+          BCH Ecosystem<br />
+          <span class="highlight">Hall of Fame</span>
+        </h1>
+        <p class="hero-sub">
+          Every satoshi counts. Supporters like you fund the open-source tools that drive Bitcoin Cash adoption worldwide — wallets, DeFi primitives, payment toolkits, and more.
+        </p>
+        <div class="hero-ctas">
+          <a href="https://cashcompass-bch.vercel.app" target="_blank" rel="noopener" class="btn btn-primary">
+            🧭 CashCompass
+          </a>
+          <a href="https://compasspay.cash" target="_blank" rel="noopener" class="btn btn-ghost">
+            💳 CompassPay
+          </a>
+          <a href="https://stableshift.cash" target="_blank" rel="noopener" class="btn btn-ghost">
+            ⚖️ StableShift
+          </a>
+          <a href="#donate" class="btn btn-ghost">
+            ↓ Donate BCH
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────────────────────── -->
+  <section id="projects" aria-labelledby="projects-title">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Ecosystem Projects</p>
+        <h2 class="section-title" id="projects-title">Built for Bitcoin Cash</h2>
+        <p class="section-sub">Your donations keep these open-source tools alive, free, and constantly improving.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="glass-card project-card reveal">
+          <div class="project-icon" aria-hidden="true">🧭</div>
+          <h3 class="project-name">CashCompass</h3>
+          <span class="project-tag">Explorer Hub</span>
+          <span class="project-tag">DeFi</span>
+          <p class="project-desc">
+            The definitive BCH ecosystem directory. Wallets, DEXs, block explorers, DeFi tools, developer resources, ambassador profiles, and a weekly featured project — all in one place.
+          </p>
+          <a href="https://cashcompass-bch.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            Visit CashCompass ↗
+          </a>
+        </article>
+
+        <article class="glass-card project-card reveal" style="transition-delay:0.1s">
+          <div class="project-icon" aria-hidden="true">💳</div>
+          <h3 class="project-name">CompassPay</h3>
+          <span class="project-tag">Payments</span>
+          <span class="project-tag">Fiat Conversion</span>
+          <p class="project-desc">
+            A complete BCH payment toolkit with live fiat conversion, QR code generation, address validation, and a serverless price proxy — no CORS headaches, no backend required.
+          </p>
+          <a href="https://compasspay.cash" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            Visit CompassPay ↗
+          </a>
+        </article>
+
+        <article class="glass-card project-card reveal" style="transition-delay:0.2s">
+          <div class="project-icon" aria-hidden="true">⚖️</div>
+          <h3 class="project-name">StableShift</h3>
+          <span class="project-tag">DeFi</span>
+          <span class="project-tag">Stablecoins</span>
+          <p class="project-desc">
+            BCH stablecoin hedging made simple. Uses the General Protocols AnyHedge oracle relay with CoinPaprika fallback to shift between BCH and stablecoins at live oracle prices.
+          </p>
+          <a href="https://stableshift.cash" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            Visit StableShift ↗
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── DONATE ─────────────────────────────────────────────────────── -->
+  <section id="donate" class="donation-section" aria-labelledby="donate-title">
+    <div class="container">
+      <div class="donation-inner">
+        <div>
+          <div class="reveal">
+            <p class="section-label">Support the Ecosystem</p>
+            <h2 class="section-title" id="donate-title">Send BCH, Get Famous</h2>
+            <p class="section-sub">
+              One shared address powers all three projects. Every transaction earns you a spot on the leaderboard — and your badge upgrades automatically.
+            </p>
+          </div>
+
+          <div class="donation-steps reveal">
+            <div class="donation-step">
+              <div class="step-num" aria-hidden="true">1</div>
+              <div class="step-text">
+                <strong>Copy the address below</strong> or scan the QR code with any BCH wallet.
+              </div>
+            </div>
+            <div class="donation-step">
+              <div class="step-num" aria-hidden="true">2</div>
+              <div class="step-text">
+                <strong>Send any amount of BCH.</strong> Every satoshi counts toward your badge tier.
+              </div>
+            </div>
+            <div class="donation-step">
+              <div class="step-num" aria-hidden="true">3</div>
+              <div class="step-text">
+                <strong>Watch the leaderboard.</strong> Your rank updates as the ecosystem grows.
+              </div>
+            </div>
+          </div>
+
+          <div class="address-box reveal">
+            <div class="address-label">BCH Donation Address (All Projects)</div>
+            <div class="address-value donation-address-text" id="donation-addr-text">
+              bitcoincash:qrtv37u522gz8a5lezfqk5vukly93cu7gc8tn09040
+            </div>
+            <button id="copy-btn" aria-label="Copy BCH donation address">
+              <span aria-hidden="true">📋</span>
+              <span class="copy-label">Copy Address</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="qr-panel reveal">
+          <div class="qr-frame">
+            <img id="qr-image" alt="QR code for BCH donation address" width="160" height="160" loading="lazy" />
+          </div>
+          <p class="qr-caption">Scan with Electron Cash,<br />Bitcoin.com Wallet, or Paytaca</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── LEADERBOARD ────────────────────────────────────────────────── -->
+  <section id="leaderboard" aria-labelledby="leaderboard-title">
+    <div class="container">
+      <div class="leaderboard-header">
+        <div class="reveal">
+          <p class="section-label">Hall of Fame</p>
+          <h2 class="section-title" id="leaderboard-title">Supporter Leaderboard</h2>
+        </div>
+        <div class="reveal" style="text-align:right">
+          <p class="section-sub" style="font-size:14px; max-width:260px;">
+            Ranked by total BCH donated.<br />Updates with every new transaction.
+          </p>
+        </div>
+      </div>
+
+      <!--
+        🔌 BACKEND: renderSupporters() populates #leaderboard-list.
+        Replace mock data with live Haskoin / Supabase / Firebase data.
+        See script.js → onNewTransaction() for the update hook.
+      -->
+      <div id="leaderboard-list" class="leaderboard-list" role="list" aria-label="Supporter leaderboard">
+        <div class="empty-state">Loading supporters…</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── BADGES ─────────────────────────────────────────────────────── -->
+  <section id="badges" aria-labelledby="badges-title">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Badge System</p>
+        <h2 class="section-title" id="badges-title">Earn Your Status</h2>
+        <p class="section-sub">
+          Badges are awarded automatically based on total donation count. Keep donating to climb the tiers.
+        </p>
+      </div>
+      <!--
+        🔌 BACKEND: renderBadgeCards() builds these from the BADGES array.
+        Upgrade thresholds can be fetched from a config endpoint if needed.
+      -->
+      <div id="badge-cards" class="badges-grid" role="list" aria-label="Badge tiers"></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── MONTHLY CHAMPIONS ──────────────────────────────────────────── -->
+  <section id="monthly" class="monthly-section" aria-labelledby="monthly-title">
+    <div class="container">
+      <div class="monthly-header reveal">
+        <p class="section-label">Monthly Champions</p>
+        <h2 class="section-title" id="monthly-title">
+          Top Supporters — <span id="current-month">This Month</span>
+        </h2>
+        <p class="section-sub">The highest donors for the current calendar month. Resets on the 1st.</p>
+      </div>
+      <!--
+        🔌 BACKEND: Pull monthly totals from your DB.
+        In Supabase: SELECT from_address, SUM(amount_bch) AS monthly_total
+          WHERE created_at >= date_trunc('month', now())
+          GROUP BY from_address ORDER BY monthly_total DESC LIMIT 3
+      -->
+      <div id="monthly-champions" class="champions-grid" role="list" aria-label="Monthly top supporters">
+        <div class="empty-state">Loading champions…</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── STATS ──────────────────────────────────────────────────────── -->
+  <section id="stats" aria-labelledby="stats-title">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">By the Numbers</p>
+        <h2 class="section-title" id="stats-title">Ecosystem Statistics</h2>
+        <p class="section-sub">Live totals across all projects sharing this donation address.</p>
+      </div>
+
+      <!--
+        🔌 BACKEND: updateStatistics() populates these elements.
+        Counters animate from 0 to their real values on each render.
+      -->
+      <div class="stats-grid">
+        <div class="stat-card glass-card reveal">
+          <div class="stat-icon" aria-hidden="true">₿</div>
+          <div class="stat-value" id="stat-total-bch">0.0000</div>
+          <div class="stat-label">Total BCH Donated</div>
+        </div>
+        <div class="stat-card glass-card reveal" style="transition-delay:0.07s">
+          <div class="stat-icon" aria-hidden="true">👥</div>
+          <div class="stat-value" id="stat-supporters">0</div>
+          <div class="stat-label">Total Supporters</div>
+        </div>
+        <div class="stat-card glass-card reveal" style="transition-delay:0.14s">
+          <div class="stat-icon" aria-hidden="true">🔁</div>
+          <div class="stat-value" id="stat-donations">0</div>
+          <div class="stat-label">Total Donations</div>
+        </div>
+        <div class="stat-card glass-card reveal" style="transition-delay:0.21s">
+          <div class="stat-icon" aria-hidden="true">📊</div>
+          <div class="stat-value" id="stat-avg">0.0000</div>
+          <div class="stat-label">Avg Donation (BCH)</div>
+        </div>
+        <div class="stat-card glass-card reveal" style="transition-delay:0.28s">
+          <div class="stat-icon" aria-hidden="true">🏆</div>
+          <div class="stat-value" id="stat-top" style="font-size:18px; word-break:break-word;">—</div>
+          <div class="stat-label">Top Supporter</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="nav-logo-icon" aria-hidden="true">🏆</div>
+            BCH Ecosystem Hall of Fame
+          </div>
+          <p class="footer-desc">
+            Celebrating every supporter who believes in Bitcoin Cash as peer-to-peer electronic cash for the world. Built by the community, for the community.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <nav class="footer-col" aria-label="Projects links">
+            <h4>Projects</h4>
+            <ul>
+              <li><a href="https://cashcompass-bch.vercel.app" target="_blank" rel="noopener">CashCompass</a></li>
+              <li><a href="https://compasspay.cash" target="_blank" rel="noopener">CompassPay</a></li>
+              <li><a href="https://stableshift.cash" target="_blank" rel="noopener">StableShift</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-col" aria-label="Hall of Fame links">
+            <h4>Hall of Fame</h4>
+            <ul>
+              <li><a href="#leaderboard">Leaderboard</a></li>
+              <li><a href="#badges">Badges</a></li>
+              <li><a href="#monthly">Monthly</a></li>
+              <li><a href="#donate">Donate</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-col" aria-label="BCH links">
+            <h4>BCH Ecosystem</h4>
+            <ul>
+              <li><a href="https://bitcoincash.org" target="_blank" rel="noopener">Bitcoin Cash</a></li>
+              <li><a href="https://cauldron.quest" target="_blank" rel="noopener">Cauldron DEX</a></li>
+              <li><a href="https://paytaca.com" target="_blank" rel="noopener">Paytaca</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          © 2026 BCH Ecosystem Hall of Fame. Open-source & community-owned.
+        </p>
+        <div class="footer-bch">
+          <span>⚡</span> Powered by Bitcoin Cash
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>

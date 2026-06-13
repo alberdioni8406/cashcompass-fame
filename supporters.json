@@ -1,0 +1,110 @@
+{
+  "donationAddress": "bitcoincash:qrtv37u522gz8a5lezfqk5vukly93cu7gc8tn09040",
+  "lastUpdated": "2026-06-13T00:00:00Z",
+  "supporters": [
+    {
+      "id": 1,
+      "address": "bitcoincash:qpzk9d8x5jfnmvt2rlh4wcq3ays6eu7fxg8c0mn3p",
+      "displayName": "BCH Maximalist",
+      "totalDonated": 5.82,
+      "donations": 28,
+      "badge": "Platinum",
+      "joinDate": "2025-11-03",
+      "monthlyDonated": 1.20
+    },
+    {
+      "id": 2,
+      "address": "bitcoincash:qr9w2elka7v3fhymn5xqjd8tpu4cs6dk0gm1bz7xe",
+      "displayName": "CashCrusader",
+      "totalDonated": 3.45,
+      "donations": 15,
+      "badge": "Gold",
+      "joinDate": "2025-12-18",
+      "monthlyDonated": 0.80
+    },
+    {
+      "id": 3,
+      "address": "bitcoincash:qze5tmnr8jkd2pcvl6xhf9q0uyw3as4gk7bntc1eh",
+      "displayName": "Peer-to-Peer Pioneer",
+      "totalDonated": 2.10,
+      "donations": 11,
+      "badge": "Gold",
+      "joinDate": "2026-01-07",
+      "monthlyDonated": 0.60
+    },
+    {
+      "id": 4,
+      "address": "bitcoincash:qq8fvkjmdhw5rt3nxpcze6yl0ag2s7u4bk9cv1hmp",
+      "displayName": "SatoshiVision",
+      "totalDonated": 1.77,
+      "donations": 9,
+      "badge": "Silver",
+      "joinDate": "2026-02-14",
+      "monthlyDonated": 0.50
+    },
+    {
+      "id": 5,
+      "address": "bitcoincash:qnxjt7kqp0dhce4rmw8s5uf3lzyvb6ag2m9k4ep1c",
+      "displayName": "GreenChainGuru",
+      "totalDonated": 1.33,
+      "donations": 7,
+      "badge": "Silver",
+      "joinDate": "2026-02-28",
+      "monthlyDonated": 0.45
+    },
+    {
+      "id": 6,
+      "address": "bitcoincash:qpmal3nv8txkejh0qc5d7yre6wf9u2bsgk4fv0pzn",
+      "displayName": "CashToken Wizard",
+      "totalDonated": 0.95,
+      "donations": 6,
+      "badge": "Silver",
+      "joinDate": "2026-03-10",
+      "monthlyDonated": 0.40
+    },
+    {
+      "id": 7,
+      "address": "bitcoincash:qhwev4zkrd9tmqn5jly8x62ufb3psc0agm7e1kvdh",
+      "displayName": "ScalabilitySteve",
+      "totalDonated": 0.58,
+      "donations": 4,
+      "badge": "Bronze",
+      "joinDate": "2026-03-22",
+      "monthlyDonated": 0.30
+    },
+    {
+      "id": 8,
+      "address": "bitcoincash:qmdu6cl2e7ps9n4rfh5bk3j0wtxqyav8g1n9zkpvc",
+      "displayName": "MicroPaymentMike",
+      "totalDonated": 0.42,
+      "donations": 3,
+      "badge": "Bronze",
+      "joinDate": "2026-04-01",
+      "monthlyDonated": 0.25
+    },
+    {
+      "id": 9,
+      "address": "bitcoincash:qr2wlknv5ce8mjd7uhf4bpyt3xqs09agk6znm1reh",
+      "displayName": "AdoptionAdvocate",
+      "totalDonated": 0.30,
+      "donations": 2,
+      "badge": "Bronze",
+      "joinDate": "2026-04-15",
+      "monthlyDonated": 0.20
+    },
+    {
+      "id": 10,
+      "address": "bitcoincash:qzk4p8nfhsj0lxmctyd3vewru7b5qa9g2e6c1mn0p",
+      "displayName": "NewcomerNadia",
+      "totalDonated": 0.15,
+      "donations": 1,
+      "badge": "Bronze",
+      "joinDate": "2026-05-30",
+      "monthlyDonated": 0.15
+    }
+  ],
+  "monthlyChampions": {
+    "month": "June 2026",
+    "topDonors": [1, 2, 3]
+  }
+}
