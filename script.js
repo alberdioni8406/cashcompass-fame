@@ -706,10 +706,10 @@ function startPolling() {
 async function init() {
   initNav();
   initHeroCanvas();
+  renderBadgeCards();
   initScrollReveal();
   initCopyButton();
   initModal();
-  renderBadgeCards();
   renderQRCode(CONFIG.donationAddress);
 
   document.querySelectorAll('.donation-address-text').forEach(el => el.textContent = CONFIG.donationAddress);
