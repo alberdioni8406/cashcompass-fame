@@ -209,10 +209,14 @@
         <div class="reveal">
           <p class="section-label">Hall of Fame</p>
           <h2 class="section-title" id="leaderboard-title">Supporter Leaderboard</h2>
+          <div style="display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:8px;">
+            <span id="data-status" class="data-status" aria-live="polite"></span>
+            <span id="bch-price" aria-label="Live BCH price"></span>
+          </div>
         </div>
         <div class="reveal" style="text-align:right">
           <p class="section-sub" style="font-size:14px; max-width:260px;">
-            Ranked by total BCH donated.<br />Updates with every new transaction.
+            Ranked by total BCH donated.<br />Synced live from the BCH blockchain.
           </p>
         </div>
       </div>
@@ -292,6 +296,7 @@
           <div class="stat-icon" aria-hidden="true">₿</div>
           <div class="stat-value" id="stat-total-bch">0.0000</div>
           <div class="stat-label">Total BCH Donated</div>
+          <div id="stat-total-usd"></div>
         </div>
         <div class="stat-card glass-card reveal" style="transition-delay:0.07s">
           <div class="stat-icon" aria-hidden="true">👥</div>
